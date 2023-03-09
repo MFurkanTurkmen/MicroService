@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/MFurkanTurkmen/configcloud.git"
+          default-label: main
+          skip-ssl-validation: true
+          username: MFurkanTurkmen
+          password: ${GIT_TOKEN}

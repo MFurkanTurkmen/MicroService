@@ -1,0 +1,6 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ûğàéûÿÿÿÿ
+d
+java:S1858"B"getMesaj" returns a string, there's no need to call "toString()".(åüìœúÿÿÿÿ8ğ“öë0
+b
+java:S1128"ERemove this unused import 'com.furkan.repository.entity.UserProfile'.(¢º¯Ô8ñ“öë0

@@ -1,0 +1,25 @@
+#server:
+#  port: 9091
+#
+#spring:
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    url: jdbc:postgresql://35.225.77.4:5432/UserDB
+#    username: postgres
+#    password: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+
+ ## bu bilgiler artık config server ın icindeki config-repo kisminda
+ ## bu bilgileri kullanmak istiyorsan config-server ı iptal etmen laızm
+
+# config server ile ayaga kalkma :
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+  config:
+    import: "configserver:"
+  application:
+    name: user-micro-service

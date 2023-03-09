@@ -1,0 +1,8 @@
+rootProject.name = 'MicroService'
+include 'AuthMicroService'
+include 'UserMicroService'
+include 'ConfigServer'
+include 'ConfigServerGit'
+include 'ApiGateway'
+include 'ElasticService'
+

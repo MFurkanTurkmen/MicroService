@@ -1,0 +1,8 @@
+server:
+  port: 9999
+spring:
+  elasticsearch:
+    uris: http://localhost:9200
+    # 9200 bizim bağlantı sağladıgımız icin
+    # birde arayüzüne bağlanmak için var oda 9300 dır kibana dedigimiz arayüzdür
+    # kibana görselleştirme sağlar.işte ne ne kadar aranmış nasılmış vs olarak.
